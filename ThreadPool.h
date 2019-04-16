@@ -1,3 +1,16 @@
+/*
+ * Copyright (c) Jinfei.Gu
+ *
+ * Defines ThreadPool class.
+ * How to use the thread pool.
+ * First, create a ThreadPool object. The default constructor will create
+ * 10 threads in the pool.
+ * Second, you can create an object of a class which derives from IRunTask.
+ * Pass a pointer to this object in the Run() method of the thread pool
+ * 
+ * if this code works,it was written by Jinfei.Gu, email:gjfly007@163.com
+ */
+
 #ifndef _THREAD_POOL_H_
 #define _THREAD_POOL_H_
 #include <list>
